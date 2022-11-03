@@ -1,0 +1,8 @@
+Bloque de declaracion
+    Archivo externo css
+    Seleccionar partes de la pagina ( selectores )
+    class]: identificar cierta clase de elementos en la estructura
+    id : es unica para solo un solo elemento
+    mox moxilla webkit chorme
+    respounser
+    

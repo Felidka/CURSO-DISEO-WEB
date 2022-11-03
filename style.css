@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#1841f5;
+}
+hr{
+    background-color: white; 
+}
+header,nav,section,footer{
+    background-color: #1130ba;
+    text-align: center;
+    border-style: 1;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+}
+h1,h2{
+    font-family: 'Anton', sans-serif;
+}
+footer{
+    clear: both;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+article{
+    background-color: #485bd9;
+    border-radius: 5px ;
+    border-style: 1;
+    margin: 20px;
+    width: 25%;
+    display: inline-block;
+    font-family:monospace;
+}
+#inicio{
+    background-color: #485bd9;
+    border-radius: 5px ;
+    border-style: 1;
+    margin: 20px;
+    width: 45%;
+    display: inline-block;
+    font-family:monospace;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration-line: none;
+    background-color: #b59016;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+#logo{
+    width: 10em;
+    height: 10em;
+}
+a:hover{
+    animation-name: color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color{
+    100%{
+        background-color: #e0af0b;
+    }
+}
+
+img{
+    width: 12em;
+    height: 8em;
+    display: block; 
+    margin: auto;
+}
+.p:hover{
+    animation-name: size;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+@keyframes size {
+
+    100%{
+        width: 19em;
+        height: 33em;
+    }
+}
+.p{
+    width: 18em;
+    height: 30em;
+}
+.descripcion{
+    margin: 5px;
+}
